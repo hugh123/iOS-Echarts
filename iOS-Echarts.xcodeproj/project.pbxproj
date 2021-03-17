@@ -80,7 +80,6 @@
 		6F743A6D1D78B01900C94967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F743A451D78AFA500C94967 /* Assets.xcassets */; };
 		6F743A6E1D78B01B00C94967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F743A461D78AFA500C94967 /* Main.storyboard */; };
 		6F743A6F1D78B1CF00C94967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F9DCEB71D7841D6007CEAD2 /* Main.storyboard */; };
-		6F743A9E1D7B03F700C94967 /* NSObject+PYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFF6EA1D56448300E8B77E /* NSObject+PYObject.m */; };
 		6F743A9F1D7B03F700C94967 /* PYAreaStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D586A1D4FE34F00246943 /* PYAreaStyle.m */; };
 		6F743AA01D7B03F700C94967 /* PYAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D586C1D4FE34F00246943 /* PYAxis.m */; };
 		6F743AA11D7B03F700C94967 /* PYAxisLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D586E1D4FE34F00246943 /* PYAxisLabel.m */; };
@@ -191,7 +190,6 @@
 		6F9DCF361D7841D6007CEAD2 /* RMMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9DCF041D7841D6007CEAD2 /* RMMapper.m */; };
 		6F9DCF371D7841D6007CEAD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9DCF051D7841D6007CEAD2 /* main.m */; };
 		6F9DCF3B1D7842FF007CEAD2 /* PYLineDemoOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9DCF3A1D7842FF007CEAD2 /* PYLineDemoOptions.m */; };
-		6FEFF6EB1D56448300E8B77E /* NSObject+PYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFF6EA1D56448300E8B77E /* NSObject+PYObject.m */; };
 		6FEFF6F01D564D5C00E8B77E /* PYChordStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFF6EF1D564D5C00E8B77E /* PYChordStyle.m */; };
 		6FF5709E1D85A720007AA7A6 /* PYTreeDemoOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5709D1D85A720007AA7A6 /* PYTreeDemoOptions.m */; };
 		6FF570A11D85B0A5007AA7A6 /* PYGaugesDemoOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF570A01D85B0A5007AA7A6 /* PYGaugesDemoOptions.m */; };
@@ -436,8 +434,6 @@
 		6F9DCF391D7842FF007CEAD2 /* PYLineDemoOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYLineDemoOptions.h; sourceTree = "<group>"; };
 		6F9DCF3A1D7842FF007CEAD2 /* PYLineDemoOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYLineDemoOptions.m; sourceTree = "<group>"; };
 		6F9DCF3C1D784448007CEAD2 /* PYDemoOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYDemoOptions.h; sourceTree = "<group>"; };
-		6FEFF6E91D56448300E8B77E /* NSObject+PYObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PYObject.h"; sourceTree = "<group>"; };
-		6FEFF6EA1D56448300E8B77E /* NSObject+PYObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PYObject.m"; sourceTree = "<group>"; };
 		6FEFF6ED1D5644E500E8B77E /* PYUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYUtilities.h; sourceTree = "<group>"; };
 		6FEFF6EE1D564D5C00E8B77E /* PYChordStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYChordStyle.h; sourceTree = "<group>"; };
 		6FEFF6EF1D564D5C00E8B77E /* PYChordStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYChordStyle.m; sourceTree = "<group>"; };
@@ -528,7 +524,6 @@
 		6F4D58641D4FE34F00246943 /* iOS-Echarts */ = {
 			isa = PBXGroup;
 			children = (
-				6FEFF6E81D56446F00E8B77E /* Categories */,
 				6F4D58651D4FE34F00246943 /* iOS-Echarts.h */,
 				6F4D58661D4FE34F00246943 /* Model */,
 				6FEFF6ED1D5644E500E8B77E /* PYUtilities.h */,
@@ -865,15 +860,6 @@
 			path = DemoOptions;
 			sourceTree = "<group>";
 		};
-		6FEFF6E81D56446F00E8B77E /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				6FEFF6E91D56448300E8B77E /* NSObject+PYObject.h */,
-				6FEFF6EA1D56448300E8B77E /* NSObject+PYObject.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -956,6 +942,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1108,7 +1095,6 @@
 				6F4D58EF1D4FE34F00246943 /* PYNoDataLoadingOption.m in Sources */,
 				6FF570A71D88597B007AA7A6 /* PYScatterDemoOptions.m in Sources */,
 				6F9DCF171D7841D6007CEAD2 /* GaugesDemoController.m in Sources */,
-				6FEFF6EB1D56448300E8B77E /* NSObject+PYObject.m in Sources */,
 				6F65DC141D820E2200950EC5 /* PYCandlestickDemoOptions.m in Sources */,
 				6F4D58E51D4FE34F00246943 /* PYGrid.m in Sources */,
 				6F4D59011D4FE34F00246943 /* PYGaugeSeries.m in Sources */,
@@ -1168,7 +1154,6 @@
 				6F743AC91D7B03F700C94967 /* PYPieSeries.m in Sources */,
 				6F743ABC1D7B03F700C94967 /* PYTitle.m in Sources */,
 				6F743AC31D7B03F700C94967 /* PYFunnelSeries.m in Sources */,
-				6F743A9E1D7B03F700C94967 /* NSObject+PYObject.m in Sources */,
 				6F743A6B1D78B00600C94967 /* AppDelegate.m in Sources */,
 				6F743ABF1D7B03F700C94967 /* PYTooltip.m in Sources */,
 				6F743A6A1D78B00400C94967 /* main.m in Sources */,

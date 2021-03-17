@@ -75,7 +75,7 @@
     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
     unsigned int propsCount;
     if ([obj respondsToSelector:@selector(reloadData)]) {
-        [obj reloadData];
+        [obj performSelector:@selector(reloadData)];
     }
     Class class = [obj class];
     do { // 加这个do-while是为了将父类的属性页进行遍历

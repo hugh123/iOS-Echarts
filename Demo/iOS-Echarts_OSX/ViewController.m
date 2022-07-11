@@ -10,7 +10,7 @@
 
 @interface ViewController()
 
-@property (weak) IBOutlet PYEchartsView *echartsView;
+@property (weak) IBOutlet WKEchartsView *echartsView;
 
 @end
 

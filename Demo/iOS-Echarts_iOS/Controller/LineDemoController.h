@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PYEchartsView.h"
-#import "PYZoomEchartsView.h"
-
+#import "WKEchartsView.h"
 @interface LineDemoController : UIViewController
 
-@property (nonatomic, weak) IBOutlet PYZoomEchartsView *kEchartView;
+@property (nonatomic, weak) IBOutlet WKEchartsView *kEchartView;
 
 @end
